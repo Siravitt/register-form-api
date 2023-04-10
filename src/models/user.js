@@ -24,6 +24,9 @@ module.exports = (sequelize, DataTypes) => {
           notEmpty: true,
         },
       },
+      phone: {
+        type: DataTypes.STRING,
+      }
     },
     {
       underscored: true,
